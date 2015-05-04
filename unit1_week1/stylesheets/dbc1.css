@@ -1,0 +1,15 @@
+body {
+	background-color: beige
+}
+
+h1 {
+	color: red;
+}
+
+.nonsense {
+	text-align: center;
+}
+
+#headline:hover {
+	color: green;
+}

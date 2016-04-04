@@ -15,6 +15,10 @@ width: 400px;
 text-align: center;
 }
 
+.logos {
+	padding-left: 20px;
+}
+
 #content {
 margin-left: 400px;
 padding: 25px;

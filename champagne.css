@@ -1,0 +1,85 @@
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background: #0c2043; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#0c2043, #809ed5); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0c2043, #809ed5); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0c2043, #809ed5); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0c2043, #809ed5); /* Standard syntax */
+} 
+
+#wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  padding-bottom: 75%;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+} 
+
+#one {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-image: url(tnlogo.png);
+  background-size: cover;
+  opacity: 0.8;
+  /*background-repeat: repeat-x;*/
+
+  /*animation: example 10s linear infinite;*/
+}
+
+#two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-image: url(logos_doubled1.png);
+  background-size: cover;
+  opacity: 0.5;
+  background-repeat: repeat-x;
+
+  animation: example 5s linear infinite;
+}
+
+#three {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-image: url(tiny_logos_doubled.png);
+  background-size: cover;
+  opacity: 0.2;
+  background-repeat: repeat-x;
+
+  animation: example 3s linear infinite;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+  from { background-position: 0 0; }
+  to { background-position: 0 100%; }
+}
+
+/* Standard syntax */
+@keyframes example {
+  from { background-position: 0 0; }
+  to { background-position: 0 100%; }
+}
